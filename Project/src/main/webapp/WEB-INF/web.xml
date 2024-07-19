@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.admin.A_loginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/adminLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>IMinsert</servlet-name>
+    	<servlet-class>com.admin.IMinsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>IMinsert</servlet-name>
+    	<url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    	<servlet-name>o</servlet-name>
+    	<servlet-class>com.admin.orderservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>o</servlet-name>
+    	<url-pattern>/see</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+    	<servlet-name>updateitem</servlet-name>
+    	<servlet-class>com.admin.orderservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>updateitem</servlet-name>
+    	<url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    	<servlet-name>deleteitem</servlet-name>
+    	<servlet-class>com.admin.deleteitemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>deleteitem</servlet-name>
+    	<url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    	<servlet-name>orderinsert</servlet-name>
+    	<servlet-class>com.admin.createorderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>orderinsert</servlet-name>
+    	<url-pattern>/insertorder</url-pattern>
+    </servlet-mapping>
+    
+</web-app>

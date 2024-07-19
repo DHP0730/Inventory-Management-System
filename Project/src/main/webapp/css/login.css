@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+body{
+    background: url('../images/clothes.webp') no-repeat center center fixed;
+	background-size: cover;
+  
+}
+
+form{
+	width:400px;
+	margin:auto;
+	margin-top: 60px;
+	padding:55px;
+	background-color: #808080;
+	font-size:15px;
+	font-family:Verdana;
+	opacity: 0.8;
+}
+
+form h1{
+	text-align: center;
+}
+
+.box{
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 30px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+
+.submitBtn {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 40%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
